@@ -1,0 +1,24 @@
+{
+  "name": "huddle_landing_feature",
+  "version": "1.0.0",
+  "description": "designing huddle landing page",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/style.css",
+    "watch": "npx tailwindcss -i ./src/css/input.css -o ./src/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asad102/huddle_landing_feature.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asad102/huddle_landing_feature/issues"
+  },
+  "homepage": "https://github.com/asad102/huddle_landing_feature#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  }
+}
