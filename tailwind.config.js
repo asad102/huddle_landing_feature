@@ -42,6 +42,7 @@ module.exports = {
         brsocial : '#DFE4F0',
         btncl : '#FF52C1',
         hero : '#EDFBFF'
+        
       },
       screens : {
         large : '1440px',
@@ -63,6 +64,7 @@ module.exports = {
         54 : '54px',
         71 : '71px',
         80 : '80px',
+        140 : '140px',
         160 : '160px',
         168 : '168px',
         200 : '200px',

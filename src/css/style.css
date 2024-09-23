@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -562,8 +566,46 @@ video {
   top: 1.75rem;
 }
 
+.-top-7 {
+  top: -1.75rem;
+}
+
+.-top-16 {
+  top: -16px;
+}
+
+.-top-48 {
+  top: -48px;
+}
+
+.-top-200 {
+  top: -200px;
+}
+
+.-top-160 {
+  top: -160px;
+}
+
+.-top-140 {
+  top: -140px;
+}
+
+.-top-\[100px\] {
+  top: -100px;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-160 {
+  margin-top: 160px;
+  margin-bottom: 160px;
 }
 
 .mt-160 {
@@ -586,6 +628,10 @@ video {
   height: 31px;
 }
 
+.h-440 {
+  height: 440px;
+}
+
 .h-48 {
   height: 48px;
 }
@@ -594,8 +640,8 @@ video {
   height: 54px;
 }
 
-.h-440 {
-  height: 440px;
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .w-200 {
@@ -610,28 +656,20 @@ video {
   width: 280px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
-}
-
 .w-440 {
   width: 440px;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-280 {
   max-width: 280px;
-}
-
-.max-w-440 {
-  max-width: 440px;
-}
-
-.max-w-488 {
-  max-width: 488px;
 }
 
 .max-w-\[680px\] {
@@ -698,10 +736,6 @@ video {
   gap: 54px;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .rounded-16 {
   border-radius: 16px;
 }
@@ -740,11 +774,6 @@ video {
      object-fit: contain;
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -773,6 +802,23 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.pt-140 {
+  padding-top: 140px;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-16 {
+  padding-top: 16px;
 }
 
 .text-center {
@@ -825,14 +871,23 @@ video {
   color: rgb(0 37 46 / var(--tw-text-opacity));
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.text-lightblue {
+  --tw-text-opacity: 1;
+  color: rgb(128 142 154 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
 }
