@@ -554,14 +554,6 @@ video {
   display: none;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -574,21 +566,12 @@ video {
   z-index: 50;
 }
 
-.-my-9 {
-  margin-top: -2.25rem;
-  margin-bottom: -2.25rem;
-}
-
 .mt-160 {
   margin-top: 160px;
 }
 
 .mt-71 {
   margin-top: 71px;
-}
-
-.-mb-8 {
-  margin-bottom: -2rem;
 }
 
 .flex {
@@ -611,6 +594,10 @@ video {
   height: 54px;
 }
 
+.h-440 {
+  height: 440px;
+}
+
 .w-200 {
   width: 200px;
 }
@@ -621,6 +608,18 @@ video {
 
 .w-280 {
   width: 280px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-440 {
+  width: 440px;
 }
 
 .max-w-280 {
@@ -637,10 +636,6 @@ video {
 
 .max-w-\[680px\] {
   max-width: 680px;
-}
-
-.max-w-screen-card {
-  max-width: 1232px;
 }
 
 .grow {
@@ -703,6 +698,10 @@ video {
   gap: 54px;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-16 {
   border-radius: 16px;
 }
@@ -711,19 +710,9 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-r-16 {
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
-}
-
 .bg-White {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#F2F2F2\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
 }
 
 .bg-btncl {
@@ -736,6 +725,26 @@ video {
   background-color: rgb(0 37 46 / var(--tw-bg-opacity));
 }
 
+.bg-hero {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 251 255 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -746,24 +755,19 @@ video {
   padding-right: 80px;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-.py-40 {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .py-48 {
   padding-top: 48px;
   padding-bottom: 48px;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .py-5 {
@@ -819,4 +823,16 @@ video {
 .text-darkblue {
   --tw-text-opacity: 1;
   color: rgb(0 37 46 / var(--tw-text-opacity));
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

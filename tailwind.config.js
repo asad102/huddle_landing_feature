@@ -41,6 +41,7 @@ module.exports = {
         lightblue : '#808E9A',
         brsocial : '#DFE4F0',
         btncl : '#FF52C1',
+        hero : '#EDFBFF'
       },
       screens : {
         large : '1440px',
@@ -70,7 +71,7 @@ module.exports = {
         488 : '488px',
       },
       dropShadow: {
-        'boxxshadow': '0 25px 25px 0 rgba(0, 0, 0, 0,4.77%)',
+        boxxshadow: '0 25px 25px 0 rgba(0, 0, 0, 0,4.77%)',
       },
     },
   },
