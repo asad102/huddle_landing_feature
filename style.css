@@ -566,14 +566,14 @@ video {
   top: -140px;
 }
 
-.my-160 {
-  margin-top: 160px;
-  margin-bottom: 160px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-160 {
+  margin-top: 160px;
+  margin-bottom: 160px;
 }
 
 .mt-24 {
@@ -676,10 +676,6 @@ video {
   gap: 54px;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .rounded-16 {
   border-radius: 16px;
 }
@@ -690,10 +686,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .bg-White {
@@ -745,13 +737,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pb-72 {
+  padding-bottom: 72px;
 }
 
-.pb-92 {
-  padding-bottom: 92px;
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
 }
 
 .pt-48 {
@@ -760,22 +755,6 @@ video {
 
 .pt-71 {
   padding-top: 71px;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pr-0 {
-  padding-right: 0px;
-}
-
-.pl-0 {
-  padding-left: 0px;
 }
 
 .text-center {
@@ -842,18 +821,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -898,10 +865,6 @@ video {
     width: 1232px;
   }
 
-  .lg\:w-440 {
-    width: 440px;
-  }
-
   .lg\:w-680 {
     width: 680px;
   }
@@ -918,29 +881,8 @@ video {
     gap: 0.25rem;
   }
 
-  .lg\:gap-168 {
-    gap: 168px;
-  }
-
   .lg\:bg-desktophbg {
     background-image: url('./images/bg-hero-desktop.svg');
-  }
-
-  .lg\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .lg\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
-  .lg\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
-  .lg\:pl-16 {
-    padding-left: 16px;
   }
 
   .lg\:pr-16 {
