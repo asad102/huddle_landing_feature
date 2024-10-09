@@ -41,8 +41,8 @@ module.exports = {
 
     extend: {
       backgroundImage : {
-        desktophbg : "url('/images/bg-hero-desktop.svg')",
-        mobilehbg : "url('/images/bg-hero-mobile.svg')",
+        desktophbg : "url('./images/bg-hero-desktop.svg')",
+        mobilehbg : "url('./images/bg-hero-mobile.svg')",
       },
       colors : {
         White : '#FFFFFF',

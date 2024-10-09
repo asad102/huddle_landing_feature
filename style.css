@@ -575,10 +575,6 @@ video {
   margin-top: 24px;
 }
 
-.mt-71 {
-  margin-top: 71px;
-}
-
 .flex {
   display: flex;
 }
@@ -712,7 +708,7 @@ video {
 }
 
 .bg-mobilehbg {
-  background-image: url('/images/bg-hero-mobile.svg');
+  background-image: url('./images/bg-hero-mobile.svg');
 }
 
 .object-contain {
@@ -887,7 +883,7 @@ video {
   }
 
   .lg\:bg-desktophbg {
-    background-image: url('/images/bg-hero-desktop.svg');
+    background-image: url('./images/bg-hero-desktop.svg');
   }
 
   .lg\:py-4 {
