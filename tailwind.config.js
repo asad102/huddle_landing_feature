@@ -73,6 +73,7 @@ module.exports = {
         48  : '48px',
         54  : '54px',
         56  : '56px',
+        69 : '69px',
         71  : '71px',
         80  : '80px',
         92 : '92px',
@@ -89,7 +90,7 @@ module.exports = {
         1232 : '1232px'
       },
       dropShadow: {
-        boxxshadow: '0 25px 25px 0 rgba(0, 0, 0, 0,4.77%)',
+        boxxshadow: '0 0 14px 0 rgba(0, 0, 0, 0,7%)',
       },
     },
   },
