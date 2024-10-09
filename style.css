@@ -566,6 +566,22 @@ video {
   top: -140px;
 }
 
+.-top-28 {
+  top: -7rem;
+}
+
+.-top-36 {
+  top: -9rem;
+}
+
+.-bottom-520 {
+  bottom: -520px;
+}
+
+.-bottom-280 {
+  bottom: -280px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -578,6 +594,10 @@ video {
 
 .mt-24 {
   margin-top: 24px;
+}
+
+.mt-200 {
+  margin-top: 200px;
 }
 
 .flex {
@@ -596,8 +616,16 @@ video {
   height: 48px;
 }
 
-.h-56 {
-  height: 56px;
+.h-52 {
+  height: 13rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-80 {
+  height: 80px;
 }
 
 .w-200 {
@@ -608,16 +636,36 @@ video {
   width: 24px;
 }
 
-.w-280 {
-  width: 280px;
-}
-
 .w-full {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-440 {
+  width: 440px;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-280 {
   max-width: 280px;
+}
+
+.max-w-520 {
+  max-width: 520px;
+}
+
+.max-w-536 {
+  max-width: 536px;
 }
 
 .grow {
@@ -652,6 +700,10 @@ video {
   justify-content: space-around;
 }
 
+.gap-12 {
+  gap: 12px;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -674,6 +726,10 @@ video {
 
 .gap-54 {
   gap: 54px;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-16 {
@@ -708,6 +764,11 @@ video {
   background-color: rgb(237 251 255 / var(--tw-bg-opacity));
 }
 
+.bg-lightblue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 142 154 / var(--tw-bg-opacity));
+}
+
 .bg-mobilehbg {
   background-image: url('./images/bg-hero-mobile.svg');
 }
@@ -722,9 +783,9 @@ video {
      object-fit: cover;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .px-80 {
@@ -735,6 +796,26 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-72 {
@@ -755,6 +836,18 @@ video {
 
 .pt-71 {
   padding-top: 71px;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-31 {
+  padding-top: 31px;
+}
+
+.pt-200 {
+  padding-top: 200px;
 }
 
 .text-center {
@@ -843,8 +936,16 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:h-256 {
+    height: 256px;
+  }
+
   .md\:h-440 {
     height: 440px;
+  }
+
+  .md\:w-256 {
+    width: 256px;
   }
 
   .md\:w-440 {
@@ -861,12 +962,28 @@ video {
     height: 482px;
   }
 
+  .lg\:h-56 {
+    height: 56px;
+  }
+
   .lg\:w-1232 {
     width: 1232px;
   }
 
+  .lg\:w-280 {
+    width: 280px;
+  }
+
+  .lg\:w-440 {
+    width: 440px;
+  }
+
   .lg\:w-680 {
     width: 680px;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:max-w-488 {
@@ -885,6 +1002,21 @@ video {
     background-image: url('./images/bg-hero-desktop.svg');
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pr-16 {
     padding-right: 16px;
   }
@@ -898,5 +1030,12 @@ video {
     line-height: 60px;
     letter-spacing: 0px;
     font-weight: 600;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
